@@ -1,0 +1,19 @@
+# Secrets
+.env
+.env.*
+!.env.example
+secrets/
+**/application-local.properties
+
+# Flutter generated files
+**/.dart_tool/
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/coverage/
+**/linux/flutter/ephemeral/
+**/windows/flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+
+# Maven generated files
+backend/target/
